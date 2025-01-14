@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "motogp-results-displayer"
+version = "0.1.0"
+description = ""
+authors = ["cacara82 <cacara890@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.6"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
